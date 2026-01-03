@@ -87,11 +87,11 @@ WHERE
 
 3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
 ```sql
-/* Initially I tried this:
-SELECT COUNT (*) FROM retail_sales WHERE category = 'Beauty';
-SELECT COUNT (*) FROM retail_sales WHERE category = 'Clothing';
-SELECT COUNT (*) FROM retail_sales WHERE category = 'Electronics';
-Turns out there's a better way to do this 😂 /*
+--Initially I tried this:
+--SELECT COUNT (*) FROM retail_sales WHERE category = 'Beauty';
+--SELECT COUNT (*) FROM retail_sales WHERE category = 'Clothing';
+--SELECT COUNT (*) FROM retail_sales WHERE category = 'Electronics';
+--Turns out there's a better way to do this 😂 
 
 SELECT
 	category,
