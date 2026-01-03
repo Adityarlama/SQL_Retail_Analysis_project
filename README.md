@@ -91,7 +91,7 @@ WHERE
 --SELECT COUNT (*) FROM retail_sales WHERE category = 'Beauty';
 --SELECT COUNT (*) FROM retail_sales WHERE category = 'Clothing';
 --SELECT COUNT (*) FROM retail_sales WHERE category = 'Electronics';
---Turns out there's a better way to do this 😂 
+--There's a better way to do this haha 
 
 SELECT
 	category,
